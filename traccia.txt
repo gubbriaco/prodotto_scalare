@@ -1,0 +1,17 @@
+
+- Si realizzi un’applicazione multithreaded che calcola il prodotto scalare di due
+  array di interi di dimensione n.
+
+      dati due vettori a=(ax,ay,az) e b=(bx,by,bz) si chiama prodotto scalare di a
+      per b e si indica a*b il numero reale dato da:
+
+          a*b = ax*bx + ay*by + az*bz
+
+- Il sistema utilizza m oggetti thread istanza di una classe ProdottoScalare.
+  Ciascuno oggetto ProdottoScalare calcola il prodotto scalare su una porzione di
+  lunghezza n/m dei due array (si assuma che n sia multiplo di m).
+
+- Si definisca un main che inizializzi due array, e utilizzando opportunamente gli
+  oggetti thread, calcoli e stampi il prodotto scalare dei due array.
+
+- Si assuma che m sia una costante definita nel programma.
